@@ -4,7 +4,7 @@
 To test with 2 consumers. Run the following in 2 different terminals.
 
 - python consumer.py "message.#"
-- python consumer.py "logs.*" "*.errors" 
+- python consumer.py "logs.\*" "\*.errors" 
 
 And the following to send the messages.
 
